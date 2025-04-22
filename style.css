@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: sans-serif!important;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    justify-content: space-between!important;
+    margin: auto;
+    padding: 5px 0;
+    background-color: transparent!important;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo{
+    height: 60px;
+}
+
+.right img,footer img{
+    height: 32px;
+    margin-right: 5px;
+}
+
+.right span,footer span{
+    font-size: 28px;
+    text-shadow: 2px 2px #fff;
+    font-style: italic;
+}
+
+.hero{
+    background-image: url(https://doctors.tlstechnology.in/images/topbg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    justify-content: start!important;
+    min-height: inherit;
+}
+
+.hero h1{
+    font-style: italic;
+    text-shadow: 2px 2px #fff;
+    font-size: 72px;
+}
+
+.hero h1 span,
+.wework h2 span,
+.bonus h2 span,
+.bonus ul li span,
+.technology_use h2 span,
+.specialized h2 span,
+.right span,
+.spcl-color,
+footer span{
+    font-weight: bold;
+    color: #970000!important;
+}
+
+.trust{
+    bottom: 0;
+    max-width: 750px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trust>.col img{
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.trust>.col p{
+    font-size: 13px!important;
+}
+
+.hero form{
+    /* backdrop-filter: blur(5px); */
+    background-color: rgb(0, 0, 0,0.5);
+    right: -27%;
+}
+
+.hero form h5{
+    color: #c1f312!important;
+    font-weight: bold!important;
+}
+
+.heart{
+    right: -4%;
+    top: -3.8%;
+}
+
+.hero form button, 
+.specialized .container>a,
+.dm_need a,
+.whyus a,
+.testimonials a,
+.client a,
+footer .btn{
+    background: linear-gradient(180deg, rgba(255,188,47,1) 0%, rgba(228,124,61,1) 100%);
+}
+
+.wework{
+    background: #b5ddf8;
+}
+
+.wework .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.wework iframe{
+    max-width: 800px;
+    width: 100%;
+    max-height: 460px;
+}
+
+.bonus ul{
+    list-style: none;
+}
+
+.bonus ul li{
+    background: url(https://doctors.tlstechnology.in/images/tick2.png) no-repeat;
+    padding-left: 30px;
+    background-position: left 0 top 8px;
+    background-size: 26px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.technology_use,
+.dm_need,
+.testimonials,
+.client{
+    background-color: #ffeef0;
+}
+
+.progress,.progress-bar{
+    height: 10px;
+}
+
+.specialized{
+    overflow-x: hidden;
+}
+
+.specialized .right-box{
+    padding: 10px 20px 10px 60px;
+    background: url(https://doctors.tlstechnology.in/images/tlsarrow.jpg) no-repeat;
+    background-position: left 0 top 30px;
+}
+
+.specialized .right-box h3{
+    font-size: 35px;
+    color: #000000;
+    line-height: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.fancy-gallery .row a>.bordr{
+    border: 6px solid #ffeef0;
+    border-radius: 10px;
+}
+
+.fancy-gallery a span{
+    padding: 5px 15px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.fancy-gallery img.rounded{
+    width: 100%;
+}
+
+.dm_need ul li{
+    background: url(https://doctors.tlstechnology.in/images/tick.png) no-repeat;
+    padding-left: 30px;
+    background-position: left 0 top 2px;
+    background-size: 17px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.dm_need ul li:last-child{
+    padding-bottom: 0;
+}
+
+.dm_need .row div:first-child,
+.whyus .row div:first-child{
+    position: sticky;
+    top: 0;
+}
+
+.whyus ul li{
+    background: url(https://doctors.tlstechnology.in/images/tick2.png) no-repeat;
+    padding-left: 30px;
+    background-position: left 0 top 2px;
+    background-size: 17px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.canvasjs-chart-credit{
+    display: none;
+}
+
+.slide-container {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .slide-content,.slide {
+    margin: 0 50px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card-wrapper > .card {
+    border-radius: 20px;
+    border: 1px solid #ffced4;
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px 0;
+  }
+
+  .card-wrapper > .client-card{
+      padding: 0;
+      overflow: hidden;
+  }
+
+  .card-wrapper > .card h4{
+    font-size: 18px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .card-wrapper .profile img{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
+
+  .card-wrapper .card>.name{
+      font-style: normal;
+  }
+
+  .swiper-navBtn {
+    color: #950000;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover {
+    color: #8a2b2b;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after {
+    font-size: 35px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-pagination1{
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+  }
+  .swiper-pagination-bullet {
+    background-color: #8a2b2b;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #950000;
+  }
+
+
+/* .fixed-side-btn{
+    position: fixed;
+    background-color: #990002!important;
+    top: 40%;
+    left: -7.85%;
+    transform: rotate(90deg);
+    max-width: max-content;
+    z-index: 10;
+} */
+
+@media (min-width:991.5px){
+    .w-md-60{
+        width: 65%;
+    }
+}
+@media (min-width:767.5px){
+    .w-md-50{
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px){
+    .hero form{
+        right: 0;
+        z-index: 2;
+    }
+
+    .trust{
+        left: 2%;
+    }
+}
+
+@media (max-width: 991.5px){
+    .hero{
+        min-height: 200vh;
+        background-repeat: no-repeat;
+    }
+
+    .hero form{
+        bottom: -100px;
+    }
+
+    .trust{
+        bottom: 59%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .bonus .row,
+    .technology_use .row,
+    .dm_need .row,
+    .whyus .row{
+        justify-content: center;
+    }
+
+    .dm_need .row div:first-child,
+    .whyus .row div:first-child{
+        position: unset;
+    }
+
+    .heroform form{
+        /* backdrop-filter: blur(5px); */
+        background-color: rgb(0, 0, 0,0.5);
+    }
+    
+    .heroform form h5{
+        color: #c1f312!important;
+        font-weight: bold!important;
+    }
+    
+    .heart{
+        right: -4%;
+        top: -3.8%;
+    }
+}
+
+@media (max-width: 767.5px){
+    .hero{
+        background-image: url(https://doctors.tlstechnology.in/images/landing-header-respon.jpg);
+    }
+    .hero h1{
+        font-size: 48px;
+    }
+
+    .trust{
+        max-width: 400px;
+        /* bottom: 61%; */
+    }
+    
+    .trust .col div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero form{
+        bottom: -170px;
+    }
+
+    .wework iframe{
+        max-width: 800px;
+        width: 100%;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 575.5px){
+    .hero{
+        min-height: 100vh;
+    }
+
+    .hero h1{
+        font-size: 32px;
+    }
+
+    .trust{
+        /* max-width: 400px; */
+        bottom: 50%;
+    }
+
+    .heroform form{
+        bottom: 300px;
+    }
+
+    .specialized .container>.row{
+        align-items: flex-start!important;
+    }
+
+    /* .wework iframe{
+        max-width: 800px;
+        width: 100%;
+        max-height: 300px;
+    } */
+}
+
+@media (max-width: 485px){
+    .right span{
+        display: none!important;
+    }
+
+    .trust{
+        left: 100%;
+        transform: translate(-100%);
+    }
+
+    .slide-content,.slide{
+        margin: 0;
+    }
+
+    .swiper-navBtn{
+        display: none!important;
+    }
+}
+
+@media (max-width: 414.5px){
+    .right span{
+        display: none!important;
+    }
+
+    .trust{
+        left: 3%;
+        transform: translate(0%);
+    }
+}
